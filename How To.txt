@@ -1,0 +1,54 @@
+arduino uno
+relay 4 chanel
+module bluetooth HC 05
+jumper cable male to female
+usb
+
+first we connect the relay, we plug the relay with the jumper cable
+relay -- arduino
+VCC To 5V
+GND To GND
+IN1 To D11
+IN2 To D10
+IN3 To D9
+IN4 To D8
+
+then connect the jumper cable that is already connected to the relay to the Arduino
+then we also connect the bluetooth module with the jumper cable, we only use 4 ports in the middle,
+for the right and left sides, we just leave it alone, no need to install the cable then we attach it to the arduino
+bluetooth -- arduino
+VCC To 3.3V
+GND To GND
+RXD To RX-0
+TXD To TX-1
+for RXD and TXD it can be changed if for example if it can't work and the RXD, TXD can also be reversed
+
+then the next step is to upload the program, we use a laptop here
+then we plug the port into usb, after arriving here we make sure the arduino is on, that's a sign that it's connected
+the next step we open the arduino ID to upload the program after that we can see here already
+open the program, before we upload the program, don't forget we have to remove the TXD and RXD so that
+there will be no error during uploading
+after that we just compliling the data, we just wait a moment and counseling, there are no disk errors
+what we made and then we just upload the program
+after we wait for a while our relay light has been successfully lit, that's a sign that the program we made is working well
+we see that the bluetooth is also flashing because it has not been connected, then we plug the TXD and RXD cables back into the Arduino
+as before, the next step we do a test step first before we attach it to the motorbike
+for the experiment, we have provided an android cellphone that has the bluetooth application installed, so far we can still do it
+see the bluetooth module is still flashing, that's a sign that bluetooth is still not connected to android
+now we try to just open the android application after opening the application we are asked to turn on the bluetooth
+when the bluetooth on the android phone is turned on then we click the bluetooth icon, because the bluetooth is not connected, we open it
+just the bluetooth icon on the android phone and when the device is found we just enter the password,
+here the password is usually 1234 / 0000 then back, after that we enter the application again and click the blueooth icon and we
+connect the bluetooth device then we connect it directly, until here we can detect bluetooth is already connected to
+the light is on and doesn't flash, it's a sign that bluetooth is connected
+after that we just do a test step with the command by pressing the button or microphone icon in the application
+we try to do a command for example by saying "turn on the contact" then we can also see the relay light turns off when we
+Doing that command is a sign that this application is working
+
+after that we just attach the circuit to the motor and of course attach it in stepdown to become a current retainer from the battery
+because I gave the voltage supply from the battery, then we just tested it via Android. Immediately we give orders through the application
+bluetooth that we have installed, we open it then we directly connect the device with bluetooth on our android cellphone, before we start with
+by giving the command and we position the motor is off, we just give the command for example "turn on the contact" then "turn on the engine" and after
+That's why we make sure everything goes well following our orders, it's also best when we start doing orders the surroundings must be quiet
+because the device is likely to detect sounds around you. After everything is done properly and correctly, we can confirm our project
+kai this can be said to be successf
